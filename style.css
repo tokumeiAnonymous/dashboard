@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+.sidebar {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(29, 92, 151);
+    overflow-x: hidden;
+    padding-top: 10%;
+}
+.header {
+    height: 20vh;
+    width: 100%;
+    margin-left: 20%;
+}
+.content {
+    display: grid;
+    margin-left: 20%;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 150px 150px;
+    padding: 50px;
+    gap: 60px;
+}
